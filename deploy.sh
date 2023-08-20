@@ -1,4 +1,5 @@
-gcloud container clusters get-credentials innotech-demo-gke --region asia-southeast1 --project innotech-demo
+# gcloud container clusters get-credentials innotech-demo-gke --region asia-southeast1 --project innotech-demo
+gcloud container clusters get-credentials autopilot-cluster-1 --region asia-southeast1 --project innotech-demo
 
 kubectl create namespace market-demo
 
