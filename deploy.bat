@@ -1,4 +1,4 @@
 @echo off
 
 rem
-gcloud container clusters get-credentials innotech-demo-gke-h --region asia-southeast1 --project innotech-demo
+for /f "delims=" %%i in ('gcloud container clusters get-credentials innotech-demo-gke-h --region asia-southeast1 --project innotech-demo') do set "output=%%i"
