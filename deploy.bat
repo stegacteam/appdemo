@@ -6,5 +6,5 @@ for /f "delims=" %%i in ('gcloud container clusters get-credentials innotech-dem
   set "output=%%i"
 )
 
-echo The output is: !output!
+@REM echo The output is: !output!
 endlocal
